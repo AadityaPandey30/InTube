@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/58118f0173.js" crossorigin="anonymous"></script>
+</head> 
+<body onload="Abc()">
+     <!---------The Header--------->
+     <header class="Flex-box">
+        <div class="left-part Flex-box">
+            <i class="fas fa-solid fa-bars menu-btn"></i>
+            <i class="fab fa-brands fa-youtube"><span>IndTube</span></i>
+        </div>
+        <div clas="center-part Flex-box">
+            <div class="search-bar Flex-box">
+                <input type="text" placeholder="Search">
+                <button class="search-btn"><i class="fas fa-solid fa-magnifying-glass"></i></button>
+                <i class="fas fa-microphone mic-icon"></i>
+            </div>   
+        </div>
+        <div class="right-part Flex-box">
+            <i class="fas fa-video"></i>
+            <i class="fas fa-th"></i>
+            <i class="fas fa fa-bell"></i>
+            <i class="fas fa-user"></i>
+        </div>
+    </header>
+    <!--------The Side Bar--------->
+    <div class="side-bar">
+        <ul>
+            <a href="HomePage.html"><li class="menu-item"><i class="fas fa-home"></i>Home</li></a>
+            <li class="menu-item"><i class="fas fa-compass"></i>Explore</li>
+            <li class="menu-item"><i class="fas fa-play"></i>Subscriptions</li>
+            <hr>
+            <li class="menu-item"><i class="fas fa-play-circle"></i>Library</li>
+            <li class="menu-item"><i class="fas fa-history"></i>History</li>
+            <li class="menu-item"><i class="fas fa-music"></i>Music</li>
+            <li class="menu-item"><i class="fas fa-trophy"></i>Sports</li>
+            <li class="menu-item"><i class="fas fa-gamepad"></i>Gaming</li>
+            <li class="menu-item"><i class="fas fa-newspaper"></i>News</li>
+            <hr>
+            <a href="settings.html"><li class="menu-item"><i class="fas fa-cog"></i>Settings</li></a>
+            <li class="menu-item"><i class="fas fa-flag"></i>Report History</li>
+            <li class="menu-item"><i class="fas fa-question-circle"></i>Help</li>
+            <li class="menu-item"><i class="fas fa-exclamation-circle"></i>Send feedback</li>
+
+        </ul>
+    </div>
+     <!-------------Second Part: The Video Page -------------->
+    <div class="videos-container for-video-page">
+        <div class="two-parts">
+            <div class="running-video">
+                <video src="WebHD_720p.mp4" toplay controls></video>
+                <h3>How a Healthy Music affects our Subconscious mind.</h3>
+                <div class="video-information">
+                    <p>500K views . 1 year ago </p>
+                    <div class="buttons">
+                        <i class="far fa-solid fa-thumbs-up" style="color: #286318;"><span>Like</span></i>
+                        <i class="far fa-regular fa-thumbs-down" style="color: #286318;"><span>Dislike</span></i>
+                        <i class="far fa-solid fa-share"><span>Share</span></i>
+                        <i class="far fa-plus-square"><span>Save</span></i>
+                        <i class="far fa-solid fa-ellipsis-vertical"></i>
+                    </div>
+                </div>
+                <hr>
+                <div class="youtuber">
+                    <img src="user1.png">
+                    <div>
+                        <p>Auandnia</p>
+                        <span>450M Subscribers</span>
+                    </div>
+                    <button>SUBSCRIBE</button>
+                </div>
+                <div class="video-description">
+                    <p>Here, you can add your Video description.<br> Provide your Social media accounts so that you can get in touch.</p>
+                </div>
+                <hr>
+                <div class="video-comments">
+                    <span>72 Comments</span>
+                    <i class="fas fa-bars"><span>SORT BY</span></i>
+                </div>
+                <div class="add-comments">
+                    <img src="user3.jpg">
+                    <input type="text" placeholder="Add a public comment." id="comment">
+                    <button id="post">POST</button>
+                    
+                </div>
+               
+                <div class="other-comments">
+                    <img src="user2.jpg">
+                    <div>
+                        <h3>Auandnia <span>1 month ago</span></h3>
+                    <p>
+                        Hello Sir and Mam! Huge Fan, I am Nora from Korea. Greatly moved by your works of value addition.
+                    </p>
+                    <div class="react-to-comments">
+                        <i class="far fa-thumbs-up thu" style="color: #286318;"><span>6.5K</span></i>
+                        <i class="far fa-thumbs-down thu" style="color: #286318;"><span>2</span></i>
+                        <span>REPLY</span>
+                    </div>
+                    </div>
+                    </div>
+                    <div>
+                    <div class="other-comments">
+                        <img src="user2.jpg">
+                        <div>
+                            <h3>Auandnia <span>1 month ago</span></h3>
+                        <p>
+                            Hello Sir and Mam! Huge Fan, I am Nora from Korea. Greatly moved by your works of value addition.
+                        </p>
+                        <div class="react-to-comments">
+                            <i class="far fa-thumbs-up thu" style="color: #286318;"><span>6.5K</span></i>
+                            <i class="far fa-thumbs-down thu" style="color: #286318;"><span>2</span></i>
+                            <span>REPLY</span>
+                        </div>
+                        </div>
+                    </div>
+                        <div class="other-comments">
+                            <img src="user2.jpg">
+                            <div>
+                                <h3>Auandnia <span>1 month ago</span></h3>
+                            <p>
+                                Hello Sir and Mam! Huge Fan, I am Nora from Korea. Greatly moved by your works of value addition.
+                            </p>
+                            <div class="react-to-comments">
+                                <i class="far fa-thumbs-up thu" style="color: #286318;"><span>6.5K</span></i>
+                                <i class="far fa-thumbs-down thu" style="color: #286318;"><span>2</span></i>
+                                <span>REPLY</span>
+                            </div>
+                            </div>
+                        </div>
+                   </div>
+                   </div>
+            <div class="suggested-videos">
+                <div class="single-suggested-video">
+                    <a href="" class="thumbnail"><img src="thum1.jpg"></a>
+                    <div class="video-details">
+                        <a href="">Web Development is on of the very interesting careers.</a>
+                        <p>Auandnia</p>
+                        <p>500K Views</p>
+                    </div>
+                </div>
+                <div class="single-suggested-video">
+                    <a href="" class="thumbnail"><img src="thum2.jpg"></a>
+                    <div class="video-details">
+                        <a href="">Web Development is on of the very interesting careers.</a>
+                        <p>Auandnia</p>
+                        <p>500K Views</p>
+                    </div>
+                </div>
+                <div class="single-suggested-video">
+                    <a href="" class="thumbnail"><img src="thum3.jpg"></a>
+                    <div class="video-details">
+                        <a href="">Web Development is on of the very interesting careers.</a>
+                        <p>Auandnia</p>
+                        <p>500K Views</p>
+                    </div>
+                </div>
+                <div class="single-suggested-video">
+                    <a href="" class="thumbnail"><img src="thum4.jpg"></a>
+                    <div class="video-details">
+                        <a href="">Web Development is on of the very interesting careers.</a>
+                        <p>Auandnia</p>
+                        <p>500K Views</p>
+                    </div>
+                </div>
+                <div class="single-suggested-video">
+                    <a href="" class="thumbnail"><img src="thum5.jpg"></a>
+                    <div class="video-details">
+                        <a href="">Web Development is on of the very interesting careers.</a>
+                        <p>Auandnia</p>
+                        <p>500K Views</p>
+                    </div>
+                </div>
+                <div class="single-suggested-video">
+                    <a href="" class="thumbnail"><img src="thum6.jpg"></a>
+                    <div class="video-details">
+                        <a href="">Web Development is on of the very interesting careers.</a>
+                        <p>Auandnia</p>
+                        <p>500K Views</p>
+                    </div>
+                </div>
+                <div class="single-suggested-video">
+                    <a href="" class="thumbnail"><img src="thum7.jpg"></a>
+                    <div class="video-details">
+                        <a href="">Web Development is on of the very interesting careers.</a>
+                        <p>Auandnia</p>
+                        <p>500K Views</p>
+                    </div>
+                </div>
+                <div class="single-suggested-video">
+                    <a href="" class="thumbnail"><img src="thum8.jpg"></a>
+                    <div class="video-details">
+                        <a href="">Web Development is on of the very interesting careers.</a>
+                        <p>Auandnia</p>
+                        <p>500K Views</p>
+                    </div>
+                </div>
+                <div class="single-suggested-video">
+                    <a href="" class="thumbnail"><img src="thum9.jpg"></a>
+                    <div class="video-details">
+                        <a href="">Web Development is on of the very interesting careers.</a>
+                        <p>Auandnia</p>
+                        <p>500K Views</p>
+                    </div>
+                </div>
+                <div class="single-suggested-video">
+                    <a href="" class="thumbnail"><img src="thum10.jpg"></a>
+                    <div class="video-details">
+                        <a href="">Web Development is on of the very interesting careers.</a>
+                        <p>Auandnia</p>
+                        <p>500K Views</p>
+                    </div>
+                </div>         
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
