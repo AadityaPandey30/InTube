@@ -276,6 +276,15 @@ hr{
     .videos-container{
         padding: 1%;
     }
+
+    .running-video{
+        width: 100%;
+        margin-left: 60px;
+    }
+
+    .add-comments{
+        width: 100%;
+    }
 }
 /*-----------------Video Page-------------*/
 .for-video-page{
