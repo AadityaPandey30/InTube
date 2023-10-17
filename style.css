@@ -122,6 +122,7 @@ ul{
     white-space: nowrap;
     overflow-y: scroll;
     overflow-x: hidden;
+    z-index: 5;
 }
 
 .menu-item{
@@ -160,7 +161,7 @@ hr{
 }
 
 .resize-sidebar{
-    width: 5%;
+    width: 0%;
     overflow-y: scroll;
     overflow-x: hidden;
 }
@@ -217,7 +218,7 @@ hr{
 }
 
 /*---------------Make your page responsive----------*/
-@media (max-width:800px){
+@media (max-width:900px){
     .left-part .fas{
         font-size: 20px;
         margin-right: 8px;
@@ -277,30 +278,36 @@ hr{
         padding: 1%;
     }
 
-    .running-video{
-        width: 100%;
-        margin-left: 60px;
+    .two-parts{
+        margin-left: 4px;
+        flex-direction: column;
     }
 
-    .add-comments{
+    .running-video{
         width: 100%;
+        margin-left: 0px;
     }
+
 }
 /*-----------------Video Page-------------*/
 .for-video-page{
     padding: 1% 1%;
 }
 
+.vdo-solve{
+    display: none;
+}
+
 .two-parts{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-left: 70px;
 }
 
 .running-video{
     flex-basis: 66%;
     line-height: 100%;
+    margin-bottom: 20px;
 }
 
 .suggested-videos{
@@ -382,7 +389,7 @@ hr{
 }
 
 .add-comments{
-    width: 400px;
+    width: 100%;
     align-items: center;
     margin: 30 5px;
     display: flex;
@@ -481,3 +488,6 @@ hr{
     margin-left: 6%;
 }
 
+video::-webkit-media-controls {
+    z-index: 3;
+}
